@@ -11,7 +11,12 @@ header {
   height: 10%;
   box-sizing: border-box;
   padding: 8%;
-  background-color: #0088aa;
+  background: rgb(0, 102, 136);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 102, 136, 1) 0%,
+    rgba(0, 153, 204, 1) 100%
+  );
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
@@ -26,6 +31,15 @@ header {
 header img {
   width: 80%;
   margin-bottom: 8%;
+}
+
+h1 {
+  margin: 10%;
+}
+
+li {
+  list-style: none;
+  margin: 5%;
 }
 
 main {
@@ -55,6 +69,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
+  font-size: ;
   font-family: Poppins;
   text-align: center;
   font-weight: 400;
